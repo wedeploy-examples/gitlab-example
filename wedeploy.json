@@ -1,0 +1,11 @@
+{
+    "id": "gitlab",
+    "image": "gitlab/gitlab-ce:latest",
+    "memory": 4096,
+    "cpu": 2,
+    "volumes": {
+        "config": "/etc/gitlab:rw",
+        "logs": "/var/log/gitlab:rw",
+        "data": "/var/opt/gitlab:rw"
+    }
+}
