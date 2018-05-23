@@ -1,6 +1,6 @@
 [![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/wedeploy-examples/gitlab-example)
 
-# {name}
+# GitLab
 
 A example of [Gitlab](https://about.gitlab.com/) on [WeDeploy](https://wedeploy.com/).
 
