@@ -10,6 +10,10 @@ A example of [Gitlab](https://about.gitlab.com/) on [WeDeploy](https://wedeploy.
 2. Clone this repository.
 3. Open the project folder with your command line and run **we deploy -p yourproject**.
 
+## Note
+
+Gitlab [official image](https://hub.docker.com/r/gitlab/gitlab-ce/~/dockerfile/) adds a volume to `/var/opt/gitlab`. This path is not allowed when deploying to WeDeploy since we do not support *.socket files inside our volumes.
+
 ## License
 
 [BSD-3-Clause](./LICENSE.md), © Liferay, Inc.
