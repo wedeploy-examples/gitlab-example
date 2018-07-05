@@ -1,6 +1,6 @@
 {
     "id": "gitlab",
-    "image": "gitlab/gitlab-ce:10.8.2-ce.0",
+    "image": "gitlab/gitlab-ce:10.8.3-ce.0",
     "memory": 4096,
     "cpu": 2,
     "volumes": {
