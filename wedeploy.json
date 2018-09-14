@@ -6,5 +6,9 @@
     "volumes": {
         "config": "/etc/gitlab",
         "logs": "/var/log/gitlab"
+    },
+    "healthCheck": {
+        "interval": 30,
+        "url": "localhost"
     }
 }
